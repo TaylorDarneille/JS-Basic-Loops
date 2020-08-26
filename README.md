@@ -6,13 +6,16 @@ This lab was altered from the source material [here](https://git.generalassemb.l
 * Loops
 * Conditionals
 
-## Directions
+## Getting Started
 
-Complete these problems on your local machine. When you think you have the answer to one of the problems run it locally with the `node` command. For example:
+Do all your code in a [repl.it](https://repl.it/).
 
-```
-node getEven.js
-```
+# Submitting your code
+
+* Fork and clone this repository
+* Create a file in this directory called `solution.txt`
+* copy/paste your solution into that file
+* Commit and push your code, then make a pull request!
 
 ## Get Even
 
