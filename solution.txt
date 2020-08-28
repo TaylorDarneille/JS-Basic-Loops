@@ -1,0 +1,41 @@
+for(let i=0; i<200; i+=2)
+console.log(i)
+
+// Excited Kitten 
+// I first of all printed out the string 10 times
+ let loveMe= "Love me, pet me! HSSSSSS!"
+ let arr = []
+for (let i =0 ; i <= 10; i++) {
+  arr.push(loveMe)
+  arr.join(" ")
+}
+//  I was able to achieve the same using console.log(loveMe.repeat(10))
+
+// create an array from which the computer will randomly print if i % 2 === 0
+// }
+
+
+//Thermostat
+// get a random whole number between 0 and 100 set to variable current temp
+ let currentTemp= (Math.floor(Math.random() * 100))
+console.log(currentTemp)
+
+ let desiredTemp= 70
+console.log("current temp is " + currentTemp)
+
+console.log("The current temperature is now " + desiredTemp + 1 )// couldn't get the temp to stop concatenating and do the math
+
+console.log("The current temperature is now " + currentTemp +- 1 )
+
+
+//fizzbuzz
+  for(let i=1; i<=100; i++)
+ if(i % 15 === 0){
+   console.log("fizzbuzz")
+ }else if (i % 5 === 0){
+   console.log("buzz")
+ }else if ( i % 3 === 0){
+   console.log("fizz")
+ }else{
+   console.log(i)
+ }
