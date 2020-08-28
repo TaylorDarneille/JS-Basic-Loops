@@ -84,7 +84,9 @@ var phoneBook = {
   "Zed": "111-111-1111"
 }
 
+//thing refers to key
 for(var thing in phoneBook){
+  //__objectname__[thing] refers to the value
   if(phoneBook[thing]==='333-333-3333'){
   console.log(thing);
   }
