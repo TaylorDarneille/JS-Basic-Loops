@@ -1,0 +1,51 @@
+// "Get Even"
+for (let i = 0; i <= 200; i+=2){
+  console.log(i);
+}
+
+// "Excited Kitten Part 1"
+for ( let i = 0; i < 10; i++){
+  console.log("Love me, pet me! HSSSSSS!");
+}
+
+// " Excitd Kitten Part 2"
+for ( let i = 0; i < 10; i++){
+  const sentences = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "meow?", "...why does the red dot always get away..."];
+  if (i % 2 === 0) {
+    const randomNumber = Math.floor(Math.random()*sentences.length);
+    console.log(sentences[randomNumber])
+  }
+}
+
+// "Thermostat"
+
+let currentTemp = Math.floor(Math.random() * 101);
+const desiredTemp = 72;
+
+console.log('The temperature is: ' + currentTemp + 'F');
+
+while (currentTemp < desiredTemp) {
+    currentTemp++;
+    console.log("The temperature is now: " + currentTemp + 'F');
+}
+
+while (currentTemp > desiredTemp) {
+    currentTemp--;
+    console.log("The temperature is now: " + currentTemp + 'F');
+}
+
+// "FizzBuzz"
+
+for (let i= 1; i < 100; i++){
+  if (i % 3 === 0){
+  console.log("Fizz");
+  }
+  else if (i % 5 === 0){
+  console.log("Buzz");
+  }
+  else if (i % 3 === 0 && i % 5 === 0){
+  console.log("FizzBuzz");
+  } else { 
+  console.log(i)
+  }
+}
