@@ -1,0 +1,50 @@
+//Question 1
+//Write a for loop that will log only the even numbers in 0 through 200.
+
+for(var i = 0; i <= 200; i+=2) { // will add plus 2
+    console.log(i)
+}
+
+//Question 2
+//Write code that logs "Love me, pet me! HSSSSSS!" 10 times.
+
+//For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", "meow?", or "...why does the red dot always get away..." at random.
+
+ kittens = ['human why you take pictures','the catnip made me do it', 'meow?', 'why does the red dot always get away']
+   kittens[0];
+   kittens[1];
+   kittens[2];
+  for (let i = 0; i < 10; i++) {
+    if (i % 2 === 0) {
+    let randomChoice = Math.floor(Math.random() * 4) //where does this times 4 come from?
+    console.log(kittens[randomChoice])
+    }
+  }
+
+  //Question 3
+  //Declare a variable called currentTemp that stores the current temperature. Set this to a random whole number between 1 and 100.
+//Hint: Use Math.random then multiply by 100 - make sure to use floor or rnd to get a whole number
+
+//Declare a variable called desiredTemp that is the temperature in Fahrenheit, that you personally like to relax at. (For most of us, this is between 68 and 72!)
+
+//Print out the current temperature is. For example:
+
+//The current temperature is 24F
+// While the temperature is too low, add a degree to the current temperature. Every time you increase the temperature, print out the current temperature again. For example:
+// The current temperature is now 25F
+// While the temperature is too high, subtract a degree from the current temperature. Every time you decrease the temperature, print out the current temperature again.
+
+let currentTemp = Math.floor(Math.random() * 100) 
+ let desiredTemp = 0
+ console.log(`The current temperature is ${currentTemp}F`);
+  while(currentTemp == 70) {
+      console.log(`The current temperature is finally ${desiredTemp}F`)
+  }
+  while(currentTemp < 70) {
+   console.log(`The current temperature is now ${currentTemp}F`)
+   currentTemp++ 
+  } while(currentTemp > 70) {
+      console.log(`The current temperature is now ${currentTemp}F`)
+      currentTemp--
+  }
+  console.log(Math.floor(Math.random(29)))// I could not figure out how to set a temp for it to start at.
