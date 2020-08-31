@@ -1,0 +1,62 @@
+## Get Even
+for (var i = 0; i<200; i+=2) {
+  console.log("i is" + i)
+};
+## Excited Kitten
+1. for (var i = 0; i<10; i++) {
+  console.log("Love me,pet me! HSSSSSS")
+};
+
+2.
+for (var i = 0; i<10; i++) {
+  if (i %2 !== 0) {
+    console.log("Love me,pet me! HSSSSSS");
+  } else if(i %2 === 0) {
+  const cat = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "meow?", "...why does the red dot always get away..."]
+  const meow = cat[Math.floor(Math.random() * cat.length)];
+  console.log(meow)
+  }
+}
+## Thermostat
+1.
+var currentTemp = Math.floor(Math.random() * 100)
+2.
+var desiredTemp = 72;
+3.
+console.log("The current temperature is " + currentTemp + "F")
+4. 5.
+while(!desiredTemp) {
+  if(desiredTemp === currentTemp){
+    console.log("the temperature is perfect at "+ currentTemp + "F")
+  } else if(desiredTemp > currentTemp) {
+    currentTemp++
+    console.log("The current temperature is now " + currentTemp + "F")
+  }else { 
+    currentTemp--
+    console.log("The current temp is now " + currentTemp + "F")
+  }
+}
+
+## Fizz Buzz
+
+var i = 0
+while (i<=100) {
+  if (i % 3 === 0 ){
+    console.log("fizz");
+  }
+  else if (i % 5 === 0) {
+    console.log("buzz");
+  }
+  else if (i % 5 ===0 && i % 3 === 0) {
+    console.log("fizzbuzz");
+  }
+i++;
+}
+
+
+## BONUS: What's My Number?
+
+for (var num in phoneBook){
+  if(phoneBook[num] === "333-333-3333")
+    console.log(num) // 
+}
