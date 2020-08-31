@@ -1,0 +1,67 @@
+//GET EVEN #1
+
+// var num = 1;
+// while(num <=200){
+//   if(num %2===0){
+//   console.log(num);
+//   }
+//   num++
+// }
+
+//EXCITED KITTEN #2
+// var num = 19;
+//  while(num>=0){
+//   console.log("Love me, pet me! HSSSSSS!");
+//   num--;
+//  }
+
+//  var num = 0;
+// var phraseArr = ["...human...why you taking pictures of me?...",
+//  "...the catnip made me do it...", "...why does the red dot always get away..."];
+// while(num<=20){
+//   console.log("Love me, pet me! HSSSSSS!");
+//   if (num%2===0) {
+//   var rand = phraseArr[Math.floor(Math.random() * phraseArr.length)];
+//   console.log(rand);
+//   }
+//   num++;
+// }
+
+//THERMOSTAT
+// var currentTemp = Math.floor(Math.random() * 100);
+// var desiredTemp = 70;
+// console.log("The current temperature is", currentTemp + 'F');
+
+// while(currentTemp < desiredTemp) {
+//     currentTemp += 1;
+//     console.log("The current temperature is now", currentTemp + 'F');
+// }
+// while(currentTemp > desiredTemp) {
+//     currentTemp -= 1;
+//     console.log("The current temperature is now", currentTemp + 'F');
+// }
+
+
+
+
+
+
+//FIZZBUZZ
+// function fizzBuzz(){
+//   var counter = 1;
+//   while (counter<=100) {
+//     console.log(counter);
+//     if(counter%3===0 && counter%5===0){
+//       console.log(`FizzBuzz ${counter}`);
+//     if(counter%3===0) {
+//       console.log(`Fizz ${counter}`);
+//     if(counter%5===0){
+//       console.log(`Buzz ${counter}`);
+//         }
+//       }
+//     }
+//     counter++;
+//   }
+// }
+// fizzBuzz();
+// I was having a lot of trouble with this. The concept of fizz buzz was hard to understand and I dont even remember going over it in class. I tried the math functions first, found someone online using it. However due to the confusion I have around the concept I was not able to get it to work. 
